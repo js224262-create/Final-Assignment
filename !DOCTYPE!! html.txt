@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services & Data | Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Our Services & Schedule</h1>
+        <p>Explore structured options, rates, and information details below.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html" class="active">Services & Data</a></li>
+            <li><a href="media.html">Gallery & Video</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Clearfix container handles the floating layout rules safely -->
+        <section class="clearfix">
+            <h2>Pricing Structure</h2>
+            
+            <!-- Floating Element Requirement (Superior Tier) -->
+            <aside class="float-box">
+                <h3>Quick Note</h3>
+                <p>Prices listed below are subject to seasonal updates. Contact us for bulk options.</p>
+            </aside>
+
+            <p>The layout matrix below presents an overview of tier services available this term:</p>
+
+            <!-- Structured HTML Data Table Requirement -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service Plan</th>
+                        <th>Features Provided</th>
+                        <th>Base Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Standard Entry Tier</td>
+                        <td>Core system access, community board access.</td>
+                        <td>$15 / mo</td>
+                    </tr>
+                    <tr>
+                        <td>Premium Growth Tier</td>
+                        <td>Priority queues, custom profiling, direct messaging.</td>
+                        <td>$30 / mo</td>
+                    </tr>
+                    <tr>
+                        <td>Enterprise Corporate Tier</td>
+                        <td>All inclusive systems, continuous dev assistance.</td>
+                        <td>$75 / mo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Web Design Final Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

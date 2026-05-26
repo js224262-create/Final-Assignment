@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Technical meta tags for search engines and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title | Home</title>
+    <!-- Link to your external stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Main Header & Site Title -->
+    <header>
+        <h1>Website Brand Name</h1>
+        <p>A professional tagline describing your website's focus.</p>
+    </header>
+
+    <!-- Global Site Navigation (Links Requirement) -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services & Data</a></li>
+            <li><a href="media.html">Gallery & Video</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Grid Area -->
+    <main>
+        <section class="welcome-section">
+            <h2>Welcome to Our Website</h2>
+            <p>This paragraph introduces your website topic to the visitor. Keep it clear, concise, and professional.</p>
+            
+            <!-- Accessible Image Placeholder -->
+            <img src="images/hero-banner.jpg" alt="A descriptive description of this image for accessibility" width="600">
+        </section>
+
+        <section class="features-section">
+            <h2>Key Features</h2>
+            <!-- Example of an advanced Nested List requirement -->
+            <ul>
+                <li>Core Feature One
+                    <ul>
+                        <li>Detailed sub-point A</li>
+                        <li>Detailed sub-point B</li>
+                    </ul>
+                </li>
+                <li>Core Feature Two</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer>
+        <p>&copy; 2026 Web Design Final Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

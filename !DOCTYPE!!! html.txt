@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | The Daily Grind Coffee Co.</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Our Coffee Journey</h1>
+        <p>Crafting perfect roasts since 2018.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="services.html">Our Menu</a></li>
+            <li><a href="media.html">Gallery & Media</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="clearfix">
+            <h2>About The Daily Grind</h2>
+            
+            <!-- Floating element profile box -->
+            <aside class="float-box">
+                <h3>Our Promise</h3>
+                <p>100% organic beans sourced directly from sustainable fair-trade family farms.</p>
+            </aside>
+
+            <p>We started in a small vintage garage with one simple mission: serving premium coffee without the premium attitude. Every batch is roasted in-house daily to lock in rich, unique flavor profiles.</p>
+            <p>Whether you need a quiet space to study or a quick morning espresso boost, our cozy cafe is designed to feel like your absolute home away from home.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Daily Grind Coffee Co. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
